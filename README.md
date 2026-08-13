@@ -63,32 +63,32 @@ npm run docs:build
 npm run docs:preview
 ```
 
-## 部署到阿里云 OSS（自动）
+## 部署到阿里云 ESA Pages（自动）
 
-本仓库已配置 GitHub Actions 工作流（`.github/workflows/deploy-oss.yml`），
-推送到 `main` 分支后会自动构建并上传到阿里云 OSS。
+本仓库通过阿里云 **ESA Pages** 部署：推送到 `main` 分支后自动构建发布。
 
-### 首次配置（一次性）
+### 首次配置（在阿里云控制台）
 
-1. 在 OSS 控制台创建 Bucket（地域建议选择离访问者近的，如华东1杭州）。
-2. 开启「静态网站托管」：默认首页填 `index.html`，默认 404 页填 `404.html`。
-3. 在 Bucket「绑定域名」中绑定你**已备案**的自定义域名，并配置 CNAME。
-4. 创建 RAM 子账号并授予该 Bucket 的读写权限，获取 AccessKey。
-5. 在 GitHub 仓库 `Settings → Secrets and variables → Actions` 添加以下 Secret：
+1. 进入 **ESA（边缘安全加速）→ Pages → 创建函数/绑定 Git 仓库**。
+2. 关联本 GitHub 仓库（`1506594736/noke-nya-manual`）。
+3. 填写部署参数：
 
-   | Secret | 说明 | 示例 |
-   |---|---|---|
-   | `ALIYUN_ACCESS_KEY_ID` | AccessKey ID | `LTAI5t...` |
-   | `ALIYUN_ACCESS_KEY_SECRET` | AccessKey Secret | `xxxx` |
-   | `ALIYUN_OSS_BUCKET` | Bucket 名称 | `my-manual` |
-   | `ALIYUN_OSS_ENDPOINT` | 地域外网 Endpoint | `https://oss-cn-hangzhou.aliyuncs.com` |
+   | 字段 | 值 |
+   |---|---|
+   | 项目名称 | `noke-nya-manual` |
+   | 生产分支 | `main` |
+   | 安装命令 | `npm install` |
+   | 构建命令 | `npm run build` |
+   | 根目录 | `/` |
+   | 静态资源目录 | `docs/.vitepress/dist` |
+   | 函数文件路径 | （留空） |
+   | Node.js 版本 | `22.x` |
 
-6. 之后每次 `git push` 到 `main` 即自动部署；也可在 GitHub Actions 页面手动触发。
+4. 部署完成后可绑定自定义域名并自动签发 HTTPS 证书。
 
 ### 说明
 
-- 本项目已关闭 VitePress 的 `cleanUrls`，页面链接带 `.html` 后缀，
-  以兼容 OSS 静态托管（OSS 按路径精确匹配文件，且对无后缀文件不返回 `text/html`）。
+- 本项目已关闭 VitePress 的 `cleanUrls`，页面链接带 `.html` 后缀，兼容各类静态托管。
 - 构建产物在 `docs/.vitepress/dist/`。
 
 ## 内容来源

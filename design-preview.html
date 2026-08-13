@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neko Nya 说明书设计预览</title>
+  <link rel="stylesheet" href="./design-preview.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="brand-mark">N</span><strong>Neko Nya</strong></a>
+    <nav aria-label="主导航">
+      <a href="#start">快速开始</a><a href="#help">故障排查</a><a href="#download">下载</a>
+    </nav>
+    <button class="search" type="button" aria-label="搜索说明书">搜索说明书 <kbd>Ctrl K</kbd></button>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div class="copy">
+        <p class="kicker">中文使用说明</p>
+        <h1>Neko Nya<br />Slime 追踪器</h1>
+        <p class="lead">从开箱连接、组装佩戴到固件维护，一套可以搜索、反复查阅的产品说明书。</p>
+        <div class="actions"><a class="primary" href="#start">开始使用 <span>→</span></a><a class="secondary" href="#help">遇到问题</a></div>
+        <div class="trust"><span>✓ 出厂完成配对</span><span>✓ 先阅读安全须知</span></div>
+      </div>
+      <div class="scene" role="img" aria-label="追踪器通过无线接收器连接电脑的示意图">
+        <span class="scene-label">连接路径</span>
+        <div class="trackers"><i class="t1">NEKO<b></b></i><i class="t2">NEKO<b></b></i><i class="t3">NEKO<b></b></i></div>
+        <div class="dots"><i></i><i></i><i></i></div>
+        <div class="receiver">⌁<small>接收器</small></div>
+        <div class="line"></div>
+        <div class="computer">USB<small>电脑接口</small></div>
+        <p class="scene-note">安装天线后连接电脑 USB 接口</p>
+      </div>
+    </section>
+
+    <section class="workflow" id="start">
+      <p class="kicker">高频入口</p><h2>你现在要做什么？</h2>
+      <div class="entries">
+        <a href="#"><b>01</b><span><strong>快速开始</strong><small>从连接接收器到进入 SlimeVR。</small></span><em>→</em></a>
+        <a href="#"><b>02</b><span><strong>组装与佩戴</strong><small>绑带、快拆卡扣与推荐点位。</small></span><em>→</em></a>
+        <a href="#"><b>03</b><span><strong>充电与按键</strong><small>批量开关机、独立启动与充电。</small></span><em>→</em></a>
+        <a href="#"><b>04</b><span><strong>软件使用</strong><small>下载安装、识别设备和点位分配。</small></span><em>→</em></a>
+        <a id="help" href="#"><b>05</b><span><strong>故障排查</strong><small>按用户看到的现象逐步定位。</small></span><em>→</em></a>
+        <a id="download" href="#"><b>06</b><span><strong>下载中心</strong><small>软件、固件和维护工具入口。</small></span><em>→</em></a>
+      </div>
+    </section>
+
+    <section class="status"><div><p class="kicker">首次使用建议顺序</p><ol><li><span>01</span>连接接收器</li><li><span>02</span>开启追踪器</li><li><span>03</span>安装 SlimeVR</li><li><span>04</span>分配并校准点位</li></ol></div><a href="#start">查看完整流程 →</a></section>
+  </main>
+  <a class="support" href="#help" aria-label="联系支持">联系支持</a>
+</body>
+</html>

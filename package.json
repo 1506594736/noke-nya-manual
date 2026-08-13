@@ -1,0 +1,15 @@
+{
+  "name": "noke-nya-manual",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "lucide-vue-next": "^0.468.0",
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.13"
+  }
+}

@@ -1,0 +1,13 @@
+node_modules/
+.npm-cache/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+
+# Codex 交易/备份/日志（不入库）
+backups/
+MODIFIED_FILE
+DIFF_FILE
+VERIFICATION.txt
+ROLLBACK.sh
+vitepress-dev*.log
+*.log

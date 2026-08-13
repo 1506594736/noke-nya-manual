@@ -1,0 +1,52 @@
+# VRChat 配置
+
+本页适用于通过 SteamVR 直连或串流游玩 VRChat 的情况。先完成[SlimeVR 软件使用](/software/)中的设备识别和追踪器分配。
+
+## 首次进入 VRChat 前
+
+1. 启动 SlimeVR，确认所有追踪器已经连接且分配正确。
+2. 佩戴头显与追踪器，启动 SteamVR 后进入 VRChat。
+3. 在 SlimeVR 打开“设置 - VRChat 设置警告”，记录黄色感叹号提示，再按当前软件版本逐项调整。
+
+<div class="manual-image-grid manual-image-grid--three">
+  <figure><img src="/images/vrchat/step-01.png" alt="SlimeVR VRChat 设置警告页面" /><figcaption>打开 VRChat 设置警告页面。</figcaption></figure>
+  <figure><img src="/images/vrchat/step-02.png" alt="SlimeVR VRChat 设置警告项目" /><figcaption>根据黄色提示检查项目。</figcaption></figure>
+  <figure><img src="/images/vrchat/step-03.png" alt="VRChat 设置提示示例" /><figcaption>以当前版本的提示为准。</figcaption></figure>
+</div>
+
+## VRChat 追踪设置
+
+1. 换出 VRChat 面板，点击设置进入大菜单。
+2. 进入“设置 - 大菜单 - 镜子”，打开全身校准时的个人镜子。
+3. 填写玩家真实身高；它不需要与 SlimeVR 内的身高设置一致。
+4. 打开“禁用肩部追踪以及肩宽补偿”。
+5. 打开全身校准视觉反馈，追踪器吸附范围设为 0.2 米，追踪器外观设为方向轴。
+
+<div class="manual-image-grid manual-image-grid--two">
+  <figure><img src="/images/vrchat/step-04.png" alt="VRChat 打开设置大菜单" /><figcaption>从面板进入设置大菜单。</figcaption></figure>
+  <figure><img src="/images/vrchat/step-05.png" alt="VRChat 镜子设置" /><figcaption>开启全身校准时的个人镜子。</figcaption></figure>
+  <figure><img src="/images/vrchat/step-06.png" alt="VRChat 真实身高设置" /><figcaption>填写自己的真实身高。</figcaption></figure>
+  <figure><img src="/images/vrchat/step-07.png" alt="VRChat 全身校准视觉反馈设置" /><figcaption>设置视觉反馈、吸附范围与方向轴。</figcaption></figure>
+</div>
+
+## 每次游玩前
+
+1. 在 SlimeVR 执行“漂移重置 - 完整重置”，保持直立直到倒计时结束。
+2. 执行“佩戴 - 身体”，摆出滑雪姿势直到倒计时结束。
+3. 使用 8 点及以上且分配了脚部追踪器时，继续执行“佩戴 - 脚部”，踮起脚尖完成脚部方向校正。
+4. 在 VRChat 中保持双腿站直、追踪器稳定后，执行游戏内校准；有手臂追踪器时伸直双手摆出 T-Pose。
+5. 让红圈追踪器尽量与模型对应部位重合；不同模型通常需要重新调整骨架。
+
+<div class="manual-image-grid manual-image-grid--three">
+  <figure><img src="/images/vrchat/step-08.png" alt="SlimeVR 完整重置与佩戴校准入口" /><figcaption>依次执行完整重置和身体佩戴校准。</figcaption></figure>
+  <figure><img src="/images/vrchat/step-09.png" alt="VRChat 全身校准前站立姿势" /><figcaption>校准前保持站直稳定。</figcaption></figure>
+  <figure><img src="/images/vrchat/step-10.png" alt="VRChat 追踪器与模型对齐" /><figcaption>让追踪器尽量与模型部位重合。</figcaption></figure>
+  <figure><img src="/images/vrchat/step-11.png" alt="SlimeVR 骨架调整界面" /><figcaption>不同模型可在此调整骨架。</figcaption></figure>
+</div>
+
+## 动作异常时
+
+- 重新佩戴、重新启动应用后，优先重做完整重置和身体佩戴校准。
+- 长时间使用产生自然漂移时，可结合情况使用“完整重置”或“重置航向轴”。
+- 运动后方向仍不正确时，先重新固定绑带，再重做完整重置与佩戴校准。
+- 仍有问题时参阅[故障排查](/support/troubleshooting)，并附上 SlimeVR 与 VRChat 的录屏联系[售后支持](/support/)。

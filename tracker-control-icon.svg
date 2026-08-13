@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620" role="img" aria-labelledby="title desc">
+  <title id="title">Neko Nya 追踪器按键位置</title>
+  <desc id="desc">白色方形追踪器，左前侧金属按键为 SWO，右前侧小孔为 RST。</desc>
+  <defs>
+    <linearGradient id="top" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e5ecea"/>
+    </linearGradient>
+    <linearGradient id="front" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7faf9"/>
+      <stop offset="1" stop-color="#cdd8d5"/>
+    </linearGradient>
+    <linearGradient id="side" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef4f2"/>
+      <stop offset="1" stop-color="#b9c9c5"/>
+    </linearGradient>
+    <radialGradient id="metal" cx="35%" cy="28%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.35" stop-color="#c5d0ce"/>
+      <stop offset="1" stop-color="#596a67"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="14"/>
+      <feOffset dy="18"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="960" height="620" fill="#f6f9f8"/>
+  <text x="64" y="72" fill="#17383a" font-family="Microsoft YaHei, Arial, sans-serif" font-size="32" font-weight="700">追踪器本体与按键位置</text>
+  <text x="64" y="108" fill="#607775" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18">白色方形小盒子为单个追踪器本体</text>
+
+  <ellipse cx="430" cy="502" rx="278" ry="54" fill="#c8d6d2" opacity="0.58"/>
+  <g filter="url(#shadow)">
+    <!-- Bottom case -->
+    <path d="M176 253 L425 363 L672 253 L672 355 Q672 367 660 373 L439 482 Q427 488 415 482 L176 373 Q164 367 164 355 L164 270 Q164 259 176 253Z" fill="url(#front)" stroke="#55706e" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M425 363 L672 253 L672 355 Q672 367 660 373 L439 482 Q427 488 425 475Z" fill="url(#side)" stroke="#55706e" stroke-width="4" stroke-linejoin="round"/>
+
+    <!-- Lid and its seam -->
+    <path d="M178 215 Q183 209 193 205 L416 103 Q427 98 439 104 L662 208 Q673 213 673 225 L673 281 Q673 293 662 299 L439 409 Q427 415 415 409 L176 299 Q164 293 164 281 L164 230 Q164 220 178 215Z" fill="#dce5e3" stroke="#17383a" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M178 205 Q183 199 193 195 L416 93 Q427 88 439 94 L662 198 Q673 203 673 215 L673 235 Q673 247 662 253 L439 363 Q427 369 415 363 L176 253 Q164 247 164 235 L164 220 Q164 210 178 205Z" fill="url(#top)" stroke="#17383a" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M180 219 L426 335 L657 223" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.85"/>
+
+    <!-- USB-C opening remains visible but intentionally unlabelled. -->
+    <path d="M524 332 Q532 325 542 329 L589 350 Q596 354 589 362 L546 384 Q537 389 528 384 L510 375 Q503 371 510 361Z" fill="#142425" stroke="#8da09c" stroke-width="5" stroke-linejoin="round"/>
+
+    <!-- SWO: raised metal button on the left-front edge. -->
+    <ellipse cx="237" cy="369" rx="13" ry="11" fill="#4e605d"/>
+    <ellipse cx="236" cy="365" rx="10" ry="9" fill="url(#metal)" stroke="#4d605d" stroke-width="2"/>
+    <ellipse cx="233" cy="361" rx="3" ry="2.5" fill="#ffffff" opacity="0.9"/>
+
+    <!-- RST: recessed small hole on the right-front edge. -->
+    <ellipse cx="412" cy="423" rx="12" ry="9" fill="#99aaa7"/>
+    <ellipse cx="412" cy="423" rx="7" ry="5.5" fill="#203433"/>
+    <ellipse cx="409" cy="421" rx="2" ry="1.5" fill="#8ca09b" opacity="0.7"/>
+  </g>
+
+  <!-- Direct callouts. -->
+  <g fill="none" stroke="#087f78" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M237 365 L130 425 L70 425"/>
+    <path d="M412 423 L589 508 L800 508"/>
+  </g>
+  <circle cx="237" cy="365" r="7" fill="#087f78" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="412" cy="423" r="7" fill="#087f78" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="70" cy="425" r="7" fill="#087f78"/>
+  <circle cx="800" cy="508" r="7" fill="#087f78"/>
+
+  <g font-family="Microsoft YaHei, Arial, sans-serif">
+    <text x="70" y="364" fill="#17383a" font-size="28" font-weight="700">SWO</text>
+    <text x="70" y="397" fill="#607775" font-size="17">金属功能按键</text>
+    <text x="800" y="447" fill="#17383a" font-size="28" font-weight="700">RST</text>
+    <text x="800" y="480" fill="#607775" font-size="17">复位小孔</text>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Noke Nya tracker control icon preview</title>
+  <desc id="desc">A white tracker icon with a SWO button and RST reset hole.</desc>
+  <rect width="720" height="480" fill="#f7f9f8"/>
+  <g transform="translate(152 113)">
+    <path d="M60 49 101 20h269l39 31v183l-42 31H95l-35-31Z" fill="#dce3e1" stroke="#173438" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M61 49 101 20h269l39 31H99Z" fill="#ffffff" stroke="#173438" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M99 49h310v185l-42 31H95l-35-31V82Z" fill="#fdfefe" stroke="#173438" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M61 82 99 49v185l-39-31Z" fill="#e8edec" stroke="#173438" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M99 208h310v26l-42 31H95l-35-31v-17Z" fill="#d7dfdd" stroke="#173438" stroke-width="5" stroke-linejoin="round"/>
+    <rect x="136" y="215" width="52" height="20" rx="10" fill="#173438"/>
+    <circle cx="162" cy="225" r="7" fill="#087f78"/>
+    <circle cx="379" cy="171" r="10" fill="#173438"/>
+    <circle cx="379" cy="171" r="4" fill="#9aa9a7"/>
+    <path d="M163 225 74 305H8" fill="none" stroke="#087f78" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="8" cy="305" r="6" fill="#087f78"/>
+    <text x="20" y="339" fill="#173438" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">SWO</text>
+    <text x="20" y="366" fill="#5f706e" font-family="Segoe UI, Arial, sans-serif" font-size="16">功能按键</text>
+    <path d="M379 171 470 92h78" fill="none" stroke="#087f78" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="548" cy="92" r="6" fill="#087f78"/>
+    <text x="470" y="59" fill="#173438" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">RST</text>
+    <text x="470" y="82" fill="#5f706e" font-family="Segoe UI, Arial, sans-serif" font-size="16">复位孔</text>
+    <text x="180" y="139" fill="#173438" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="800" letter-spacing="1">NOKE NYA</text>
+    <circle cx="349" cy="139" r="9" fill="#18b59f"/>
+  </g>
+</svg>

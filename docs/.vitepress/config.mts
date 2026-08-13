@@ -8,16 +8,6 @@ export default defineConfig({
   // 无后缀链接会导致 404，且 OSS 对无后缀文件不返回 text/html。
   cleanUrls: false,
   lastUpdated: true,
-  vite: {
-    server: {
-      watch: {
-        // 忽略 downloads 目录：其中的二进制工具文件（如 SmolFlasher.exe）
-        // 在 Windows 上会导致 Vite 文件监听报 EBUSY 崩溃。
-        // public 目录文件无需热更新监听。
-        ignored: ['**/public/downloads/**'],
-      },
-    },
-  },
   head: [
     ['meta', { name: 'theme-color', content: '#0b8f87' }],
     ['meta', { name: 'color-scheme', content: 'light dark' }],

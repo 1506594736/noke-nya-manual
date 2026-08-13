@@ -12,10 +12,18 @@
 
 ### 磁力计配置 / 固件刷写工具
 
-- [SmolFlasher 固件刷写配置工具 v0.10.3（Windows）](/downloads/SmolFlasher-0.10.3.exe)
-  - 大小：35.6 MB ｜ 版本：0.10.3 ｜ 日期：2026-08-07
-  - 适用：磁力计配置、固件刷写
-  - SHA256：`738340A6B672B4C87DE1BD8D755306AD842E99FE2A2DA065F1D7863C6BF5975A`
+**SmolFlasher 固件刷写配置工具 v0.10.3（Windows）**
+
+- 大小：35.6 MB ｜ 版本：0.10.3 ｜ 日期：2026-08-07
+- 适用：磁力计配置、固件刷写
+- SHA256：`738340A6B672B4C87DE1BD8D755306AD842E99FE2A2DA065F1D7863C6BF5975A`
+
+下载（按所在地区任选其一）：
+
+| 地区 | 下载地址 |
+| --- | --- |
+| 国内 | 蓝奏云（待补充链接） |
+| 国外 | [GitHub Releases](https://github.com/1506594736/noke-nya-manual/releases) |
 
 其余固件与工具整理中：
 

@@ -8,7 +8,7 @@
 2. 追踪器保持开机，将全部设备尽快放入充电底座，并将底座放在稳定、水平的表面。
 3. 双击充电底座 `SW0` 按键进入校准模式；也可以逐个双击追踪器侧面按键。
 4. 从取下追踪器到校准完成建议不超过 1 分钟。校准期间不要触碰或移动追踪器。
-5. 指示灯开始闪烁、约 6 秒常亮、再闪烁 4 次后，表示校准完成。
+5. 指示灯开始闪烁、约 6 秒常亮、再闪烁 3-4 次后，表示校准完成。
 
 <div class="manual-image-grid manual-image-grid--two">
   <figure><img src="/images/calibration/step-01.png" alt="充电底座 SW0 与 RST 按键位置" /><figcaption>双击充电底座的 SW0 按键开始校准。</figcaption></figure>

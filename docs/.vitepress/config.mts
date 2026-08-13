@@ -11,6 +11,25 @@ export default defineConfig({
   head: [
     ['meta', { name: 'theme-color', content: '#0b8f87' }],
     ['meta', { name: 'color-scheme', content: 'light dark' }],
+    // 按浏览器语言自动跳转中英文（尊重用户手动选择）
+    [
+      'script',
+      {},
+      `(function () {
+        try {
+          var pref = localStorage.getItem('noke-nya-lang');
+          if (pref) return; // 用户手动选过语言，不再自动跳转
+          var lang = (navigator.language || '').toLowerCase();
+          var enBrowser = lang.indexOf('en') === 0;
+          var onEn = location.pathname.indexOf('/en/') === 0;
+          if (enBrowser && !onEn) {
+            location.replace('/en' + location.pathname + location.hash);
+          } else if (!enBrowser && onEn) {
+            location.replace((location.pathname.replace(/^\\/en/, '') || '/') + location.hash);
+          }
+        } catch (e) {}
+      })();`,
+    ],
   ],
   locales: {
     root: {

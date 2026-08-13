@@ -12,9 +12,11 @@ const label = computed(() => (isEn.value ? '切换中文' : 'Switch to English')
 function switchLanguage() {
   const current = route.path
   if (current.startsWith('/en/')) {
+    localStorage.setItem('noke-nya-lang', 'zh')
     const target = current.replace(/^\/en/, '') || '/'
     if (target !== current) router.go(target)
   } else {
+    localStorage.setItem('noke-nya-lang', 'en')
     const target = '/en' + (current === '/' ? '/' : current)
     if (target !== current) router.go(target)
   }

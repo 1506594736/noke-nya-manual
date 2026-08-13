@@ -46,7 +46,7 @@ If the official channel is temporarily unavailable, get a verified installer thr
 3. Confirm the trackers are powered on.
 4. Wait for the software to detect the connected points.
 
-If the software does not detect your devices, see [Troubleshooting](/en/support/troubleshooting).
+If the software does not detect your devices, see [Troubleshooting](/en/support/troubleshooting#trackers-not-found-by-the-software).
 
 ## 5. Assign, Wear and Calibrate
 

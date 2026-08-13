@@ -8,7 +8,7 @@ Calibration falls into two types: gyroscope zero-bias calibration is normally on
 2. Keep the trackers on, place all devices into the charging dock as soon as possible, and put the dock on a stable, level surface.
 3. Double-press the `SW0` button on the dock to enter calibration mode; you can also double-press the side button on each tracker.
 4. Keep the time from removing the trackers to finishing calibration within about 1 minute. Do not touch or move the trackers during calibration.
-5. Calibration is complete when the indicator blinks, stays on for about 6 seconds, then blinks 4 times.
+5. Calibration is complete when the indicator blinks, stays on for about 6 seconds, then blinks 3-4 times.
 
 <div class="manual-image-grid manual-image-grid--two">
   <figure><img src="/images/calibration/step-01.png" alt="SW0 and RST button locations on the charging dock" /><figcaption>Double-press the SW0 button on the dock to start calibration.</figcaption></figure>

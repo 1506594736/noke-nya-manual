@@ -47,7 +47,7 @@ Indicator behavior can change with firmware versions; the table below covers com
 | --- | --- |
 | Waiting to pair (pairing mode) | Blue light blinks once per second |
 | Pairing succeeded | Tracker switches to green light blinking quickly 4 times |
-| Gyroscope calibration (double-press `SW0`) | Green light blinks once, stays on for about 4-6 s, then blinks 3 times to signal completion |
+| Gyroscope calibration (double-press `SW0`) | Green light blinks once, stays on for about 4-6 s, then blinks 3-4 times to signal completion |
 | DFU firmware mode (`RST` quick-press 3 times, or `SW0` quick-press 4-6 times) | Red light blinks |
 
 For pairing steps, see [Add or Replace Trackers](/en/guide/add-tracker).

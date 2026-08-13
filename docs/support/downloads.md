@@ -22,8 +22,8 @@
 
 | 地区 | 下载地址 |
 | --- | --- |
-| 国内 | 蓝奏云（待补充链接） |
-| 国外 | [GitHub Releases](https://github.com/1506594736/noke-nya-manual/releases) |
+| 国内（蓝奏云） | [蓝奏云下载](https://wwbbj.lanzout.com/iTPs4426hx9c)（提取码：`719n`） |
+| 国外（GitHub Releases） | [GitHub 下载](https://github.com/1506594736/noke-nya-manual/releases/latest/download/SmolFlasher.0.10.3.260807.exe) |
 
 其余固件与工具整理中：
 

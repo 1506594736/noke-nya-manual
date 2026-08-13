@@ -21,7 +21,7 @@ After receiving the new devices, follow [Add or Replace Trackers](/en/guide/add-
 
 ### Add-on Pricing
 
-- Price per tracker: **80 RMB** (¥80), free shipping, and includes a strap and clips.
+- Price per tracker: **¥80 (CNY)**, free shipping, and includes a strap and clips.
 - We recommend adding up to **10 trackers** in total per order; beyond 10, you also need to buy a receiver (one receiver can connect at most 10 trackers).
 
 ## Accessories

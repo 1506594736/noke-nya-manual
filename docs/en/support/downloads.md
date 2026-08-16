@@ -8,6 +8,10 @@
 
 - [SlimeVR official website](https://slimevr.dev/) — official download page (may require a proxy in some regions)
 
+::: tip Can't download?
+If you cannot download from the SlimeVR official site, join the support QQ group [1102960192](https://qm.qq.com/q/AFd83favza) for help.
+:::
+
 ## Neko Nya Firmware & Tools
 
 ### Magnetometer Config / Firmware Flashing Tool

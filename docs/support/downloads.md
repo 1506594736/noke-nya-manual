@@ -8,6 +8,10 @@
 
 - [SlimeVR 官方网站](https://slimevr.dev/) — 官方下载页（部分地区访问可能需要代理）
 
+::: tip 无法下载？
+如果 SlimeVR 官网无法下载（部分地区访问受限），可加入售后 QQ 群 [1102960192](https://qm.qq.com/q/AFd83favza) 获取帮助。
+:::
+
 ## Neko Nya 固件与工具
 
 ### 磁力计配置 / 固件刷写工具

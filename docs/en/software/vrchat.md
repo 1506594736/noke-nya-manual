@@ -31,10 +31,19 @@ This page applies when playing VRChat through SteamVR direct connection or strea
 
 ## Before Each Session
 
-First run the [before-each-use routine](/en/device/calibration#before-each-use) in SlimeVR: full reset, body wearing calibration and feet calibration. Then in VRChat:
+Prepare in this order before each session:
 
-1. Keep your legs straight and the trackers stable, then run the in-game calibration; if you have arm trackers, extend your arms into a T-pose.
-2. Keep the red-circle trackers as close to the matching model parts as possible; different models usually require re-adjusting the skeleton.
+1. Start SlimeVR, put on the headset and trackers, and enter VRChat.
+2. Click "Drift reset - Full reset" and stay in the upright pose until the countdown ends; then click "Wearing - Body" and stay in the skiing pose until the countdown ends.
+3. With 8 or more points and foot trackers assigned, also click "Wearing - Feet" and rise onto your toes until the countdown ends.
+4. After the steps above, open the VRChat menu as soon as possible, keep your legs straight and still, and click Calibrate.
+5. Keep your legs straight and extend your arms into a T-pose (only if you have arm trackers); keep the trackers (red circle positions) as close to the matching model parts as possible.
+6. Mainly adjust the five positions to match the avatar skeleton (depending on your tracker count); click the drop-down arrow on the right for more detailed options.
+7. After adjusting, shrink the green circle so it aligns with the model, then press the controller trigger to confirm the binding.
+
+::: tip Different avatars
+Different avatars generally need the skeleton re-adjusted before binding; re-playing with the same avatar usually does not require adjustment.
+:::
 
 <div class="manual-image-grid manual-image-grid--three">
   <figure><img src="/images/vrchat/step-08.png" alt="SlimeVR full reset and wearing calibration entry" /><figcaption>Run the full reset and body wearing calibration in order.</figcaption></figure>

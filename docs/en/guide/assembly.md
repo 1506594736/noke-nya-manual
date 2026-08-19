@@ -45,6 +45,10 @@ Do not force the clip in the wrong direction, or you may damage it.
 
 In the original manual, red markers indicate the recommended 6-point positions, and green markers indicate the extra positions for 8 or 10 points.
 
+::: warning Note
+The text outside the dotted lines next to the markers is the name of each point.
+:::
+
 | Setup | Description |
 | --- | --- |
 | 6 points | Base recommended setup; wear according to the red markers |
@@ -61,6 +65,15 @@ In the original manual, red markers indicate the recommended 6-point positions, 
     <figcaption>8-point or 10-point wearing setup.</figcaption>
   </figure>
 </div>
+
+### Wearing notes for each point
+
+- **Chest tracker**: secure it to your chest with the GoPro chest mount and chest-mount tracker clip, at about heart height — keep it centered on your body.
+- **Hip tracker**: wear it at your lower abdomen (about 10 cm below the navel), not on the belly. When sitting, check that the tracker is not pushed out of position by the belly; if it is, wear it on the back at the same spot instead (uneven legs when sitting is often caused by the hip tracker being squeezed).
+- **Thigh tracker**: wear it on the front of the thigh just above the knee — do not wear it on the side. After fastening, move the joint to make sure the tracker does not shift or wobble; if it does, adjust the strap position or tighten it.
+- **Shin tracker**: wear it at the position shown in the diagram, as low as possible, but make sure ankle movement does not push the tracker out of place.
+- **Upper-arm tracker**: wear it just above the first arm joint; direction does not matter much. Move your arm to make sure joint movement does not shift the tracker.
+- **Foot tracker**: wear it on the middle of the foot, pointing up, and make sure movement does not push it out of place.
 
 ## Wearing Checklist
 

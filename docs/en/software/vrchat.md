@@ -35,7 +35,17 @@ Prepare in this order before each session:
 
 1. Start SlimeVR, put on the headset and trackers, and enter VRChat.
 2. Click "Drift reset - Full reset" and stay in the upright pose until the countdown ends; then click "Wearing - Body" and stay in the skiing pose until the countdown ends.
+
+   ::: tip Not ideal after calibrating?
+   If the tracker position or orientation is not ideal after calibration, you can repeat this step until you are satisfied.
+   :::
+
 3. With 8 or more points and foot trackers assigned, also click "Wearing - Feet" and rise onto your toes until the countdown ends.
+
+   ::: tip No foot trackers?
+   If no trackers are assigned to the feet, you can skip this step.
+   :::
+
 4. After the steps above, open the VRChat menu as soon as possible, keep your legs straight and still, and click Calibrate.
 5. Keep your legs straight and extend your arms into a T-pose (only if you have arm trackers); keep the trackers (red circle positions) as close to the matching model parts as possible.
 6. Mainly adjust the five positions to match the avatar skeleton (depending on your tracker count); click the drop-down arrow on the right for more detailed options.

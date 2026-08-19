@@ -8,26 +8,38 @@ This page applies when playing VRChat through SteamVR direct connection or strea
 2. Put on the headset and trackers, start SteamVR, then enter VRChat.
 3. In SlimeVR, open "Settings - VRChat settings warning", note the yellow exclamation items, then adjust them one by one according to your current software version.
 
-<div class="manual-image-grid manual-image-grid--three">
-  <figure><img src="/images/vrchat/step-01.png" alt="SlimeVR VRChat settings warning page" /><figcaption>Open the VRChat settings warning page.</figcaption></figure>
-  <figure><img src="/images/vrchat/step-02.png" alt="SlimeVR VRChat settings warning items" /><figcaption>Check the items indicated by the yellow prompts.</figcaption></figure>
-  <figure><img src="/images/vrchat/step-03.png" alt="Example VRChat settings prompts" /><figcaption>Follow the prompts of the current version.</figcaption></figure>
-</div>
+   <div class="manual-image-grid manual-image-grid--three">
+     <figure><img src="/images/vrchat/step-01.png" alt="SlimeVR VRChat settings warning page" /><figcaption>Open the VRChat settings warning page.</figcaption></figure>
+     <figure><img src="/images/vrchat/step-02.png" alt="SlimeVR VRChat settings warning items" /><figcaption>Check the items indicated by the yellow prompts.</figcaption></figure>
+     <figure><img src="/images/vrchat/step-03.png" alt="Example VRChat settings prompts" /><figcaption>Follow the prompts of the current version.</figcaption></figure>
+   </div>
 
 ## VRChat Tracking Settings
 
 1. Open the VRChat panel and click Settings to enter the large menu.
+
+   <div class="manual-image-grid manual-image-grid--single">
+     <figure><img src="/images/vrchat/step-04.png" alt="VRChat opening the settings large menu" /><figcaption>Enter the settings large menu from the panel.</figcaption></figure>
+   </div>
+
 2. Go to "Settings - Large menu - Mirror" and enable the personal mirror during full-body calibration.
+
+   <div class="manual-image-grid manual-image-grid--single">
+     <figure><img src="/images/vrchat/step-05.png" alt="VRChat mirror settings" /><figcaption>Enable the personal mirror during full-body calibration.</figcaption></figure>
+   </div>
+
 3. Enter your real height; it does not need to match the height setting inside SlimeVR.
+
+   <div class="manual-image-grid manual-image-grid--single">
+     <figure><img src="/images/vrchat/step-06.png" alt="VRChat real height setting" /><figcaption>Enter your real height.</figcaption></figure>
+   </div>
+
 4. Enable "disable shoulder tracking and shoulder width compensation".
 5. Enable full-body calibration visual feedback, set the tracker attachment range to 0.2 m, and set the tracker appearance to direction axis.
 
-<div class="manual-image-grid manual-image-grid--two">
-  <figure><img src="/images/vrchat/step-04.png" alt="VRChat opening the settings large menu" /><figcaption>Enter the settings large menu from the panel.</figcaption></figure>
-  <figure><img src="/images/vrchat/step-05.png" alt="VRChat mirror settings" /><figcaption>Enable the personal mirror during full-body calibration.</figcaption></figure>
-  <figure><img src="/images/vrchat/step-06.png" alt="VRChat real height setting" /><figcaption>Enter your real height.</figcaption></figure>
-  <figure><img src="/images/vrchat/step-07.png" alt="VRChat full-body calibration visual feedback settings" /><figcaption>Set visual feedback, attachment range and direction axis.</figcaption></figure>
-</div>
+   <div class="manual-image-grid manual-image-grid--single">
+     <figure><img src="/images/vrchat/step-07.png" alt="VRChat full-body calibration visual feedback settings" /><figcaption>Set visual feedback, attachment range and direction axis.</figcaption></figure>
+   </div>
 
 ## Before Each Session
 

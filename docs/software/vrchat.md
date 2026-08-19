@@ -8,26 +8,38 @@
 2. 佩戴头显与追踪器，启动 SteamVR 后进入 VRChat。
 3. 在 SlimeVR 打开“设置 - VRChat 设置警告”，记录黄色感叹号提示，再按当前软件版本逐项调整。
 
-<div class="manual-image-grid manual-image-grid--three">
-  <figure><img src="/images/vrchat/step-01.png" alt="SlimeVR VRChat 设置警告页面" /><figcaption>打开 VRChat 设置警告页面。</figcaption></figure>
-  <figure><img src="/images/vrchat/step-02.png" alt="SlimeVR VRChat 设置警告项目" /><figcaption>根据黄色提示检查项目。</figcaption></figure>
-  <figure><img src="/images/vrchat/step-03.png" alt="VRChat 设置提示示例" /><figcaption>以当前版本的提示为准。</figcaption></figure>
-</div>
+   <div class="manual-image-grid manual-image-grid--three">
+     <figure><img src="/images/vrchat/step-01.png" alt="SlimeVR VRChat 设置警告页面" /><figcaption>打开 VRChat 设置警告页面。</figcaption></figure>
+     <figure><img src="/images/vrchat/step-02.png" alt="SlimeVR VRChat 设置警告项目" /><figcaption>根据黄色提示检查项目。</figcaption></figure>
+     <figure><img src="/images/vrchat/step-03.png" alt="VRChat 设置提示示例" /><figcaption>以当前版本的提示为准。</figcaption></figure>
+   </div>
 
 ## VRChat 追踪设置
 
 1. 换出 VRChat 面板，点击设置进入大菜单。
+
+   <div class="manual-image-grid manual-image-grid--single">
+     <figure><img src="/images/vrchat/step-04.png" alt="VRChat 打开设置大菜单" /><figcaption>从面板进入设置大菜单。</figcaption></figure>
+   </div>
+
 2. 进入“设置 - 大菜单 - 镜子”，打开全身校准时的个人镜子。
+
+   <div class="manual-image-grid manual-image-grid--single">
+     <figure><img src="/images/vrchat/step-05.png" alt="VRChat 镜子设置" /><figcaption>开启全身校准时的个人镜子。</figcaption></figure>
+   </div>
+
 3. 填写玩家真实身高；它不需要与 SlimeVR 内的身高设置一致。
+
+   <div class="manual-image-grid manual-image-grid--single">
+     <figure><img src="/images/vrchat/step-06.png" alt="VRChat 真实身高设置" /><figcaption>填写自己的真实身高。</figcaption></figure>
+   </div>
+
 4. 打开“禁用肩部追踪以及肩宽补偿”。
 5. 打开全身校准视觉反馈，追踪器吸附范围设为 0.2 米，追踪器外观设为方向轴。
 
-<div class="manual-image-grid manual-image-grid--two">
-  <figure><img src="/images/vrchat/step-04.png" alt="VRChat 打开设置大菜单" /><figcaption>从面板进入设置大菜单。</figcaption></figure>
-  <figure><img src="/images/vrchat/step-05.png" alt="VRChat 镜子设置" /><figcaption>开启全身校准时的个人镜子。</figcaption></figure>
-  <figure><img src="/images/vrchat/step-06.png" alt="VRChat 真实身高设置" /><figcaption>填写自己的真实身高。</figcaption></figure>
-  <figure><img src="/images/vrchat/step-07.png" alt="VRChat 全身校准视觉反馈设置" /><figcaption>设置视觉反馈、吸附范围与方向轴。</figcaption></figure>
-</div>
+   <div class="manual-image-grid manual-image-grid--single">
+     <figure><img src="/images/vrchat/step-07.png" alt="VRChat 全身校准视觉反馈设置" /><figcaption>设置视觉反馈、吸附范围与方向轴。</figcaption></figure>
+   </div>
 
 ## 每次游玩前
 

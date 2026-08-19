@@ -4,6 +4,10 @@
 
 ## 首次进入 VRChat 前
 
+::: tip 本章节
+本章节指导您第一次在 VRChat 中使用 Slime 追踪器的设置。
+:::
+
 1. 启动 SlimeVR，确认所有追踪器已经连接且分配正确。
 2. 佩戴头显与追踪器，启动 SteamVR 后进入 VRChat。
 3. 在 SlimeVR 打开“设置 - VRChat 设置警告”，记录黄色感叹号提示，再按当前软件版本逐项调整。
@@ -29,6 +33,14 @@
    </div>
 
 3. 填写玩家真实身高；它不需要与 SlimeVR 内的身高设置一致。
+
+   ::: tip 真实身高
+   VRChat 里的身体要填写本人的真实身高！SlimeVR 的身高无需与 VRChat 一致。
+   :::
+
+   ::: tip 切换模型
+   切换不同的模型要查看追踪器节点是否与模型对齐，如果没有对齐需要微调骨骼。
+   :::
 
    <div class="manual-image-grid manual-image-grid--single">
      <figure><img src="/images/vrchat/step-06.png" alt="VRChat 真实身高设置" /><figcaption>填写自己的真实身高。</figcaption></figure>

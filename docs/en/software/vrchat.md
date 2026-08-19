@@ -4,6 +4,10 @@ This page applies when playing VRChat through SteamVR direct connection or strea
 
 ## Before Entering VRChat for the First Time
 
+::: tip This chapter
+This chapter guides you through setting up the Slime trackers in VRChat for the first time.
+:::
+
 1. Start SlimeVR and confirm all trackers are connected and assigned correctly.
 2. Put on the headset and trackers, start SteamVR, then enter VRChat.
 3. In SlimeVR, open "Settings - VRChat settings warning", note the yellow exclamation items, then adjust them one by one according to your current software version.
@@ -29,6 +33,14 @@ This page applies when playing VRChat through SteamVR direct connection or strea
    </div>
 
 3. Enter your real height; it does not need to match the height setting inside SlimeVR.
+
+   ::: tip Real height
+   Fill in your real height for the VRChat avatar! The height inside SlimeVR does not need to match VRChat.
+   :::
+
+   ::: tip Switching avatars
+   When switching to a different avatar, check whether the tracker nodes align with the model; if not, fine-tune the skeleton.
+   :::
 
    <div class="manual-image-grid manual-image-grid--single">
      <figure><img src="/images/vrchat/step-06.png" alt="VRChat real height setting" /><figcaption>Enter your real height.</figcaption></figure>

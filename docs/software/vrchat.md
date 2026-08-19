@@ -40,6 +40,10 @@
    如果校正后，追踪器所在的位置或方向不理想，可再重复此步骤直到满意为止。
    :::
 
+   <div class="manual-image-grid manual-image-grid--single">
+     <figure><img src="/images/vrchat/step-08.png" alt="SlimeVR 完整重置与佩戴校准入口" /><figcaption>依次执行完整重置和身体佩戴校准。</figcaption></figure>
+   </div>
+
 3. 使用 8 点及以上且分配了脚部追踪器时，继续点击「佩戴 - 脚部」，踮起脚尖直到倒计时结束。
 
    ::: tip 没有脚部追踪器？
@@ -47,20 +51,28 @@
    :::
 
 4. 完成上述步骤后，尽快打开 VRChat 菜单，保持双腿站直不动，点击校准。
+
+   <div class="manual-image-grid manual-image-grid--single">
+     <figure><img src="/images/vrchat/step-09.png" alt="VRChat 全身校准前站立姿势" /><figcaption>校准前保持站直稳定。</figcaption></figure>
+   </div>
+
 5. 保持双腿站直、双手伸直摆出 T-Pose（仅在手臂有追踪器时）；让追踪器（红色圆圈位置）与模型对应部位尽可能重合。
+
+   <div class="manual-image-grid manual-image-grid--single">
+     <figure><img src="/images/vrchat/step-10.png" alt="VRChat 追踪器与模型对齐" /><figcaption>让追踪器尽量与模型部位重合。</figcaption></figure>
+   </div>
+
 6. 主要调整五个位置以匹配角色模型的骨架（具体按追踪器数量而定），点击右侧倒三角查看更详细的调整项。
+
+   <div class="manual-image-grid manual-image-grid--single">
+     <figure><img src="/images/vrchat/step-11.png" alt="SlimeVR 骨架调整界面" /><figcaption>不同模型可在此调整骨架。</figcaption></figure>
+   </div>
+
 7. 调整完成后，将绿色圆圈调整到较小并与模型对齐，按下手柄扳机键完成绑定。
 
 ::: tip 不同模型
 不同模型一般都需要重新调整骨架后再绑定；使用相同模型再次游玩时通常不需要调整。
 :::
-
-<div class="manual-image-grid manual-image-grid--three">
-  <figure><img src="/images/vrchat/step-08.png" alt="SlimeVR 完整重置与佩戴校准入口" /><figcaption>依次执行完整重置和身体佩戴校准。</figcaption></figure>
-  <figure><img src="/images/vrchat/step-09.png" alt="VRChat 全身校准前站立姿势" /><figcaption>校准前保持站直稳定。</figcaption></figure>
-  <figure><img src="/images/vrchat/step-10.png" alt="VRChat 追踪器与模型对齐" /><figcaption>让追踪器尽量与模型部位重合。</figcaption></figure>
-  <figure><img src="/images/vrchat/step-11.png" alt="SlimeVR 骨架调整界面" /><figcaption>不同模型可在此调整骨架。</figcaption></figure>
-</div>
 
 ## 动作异常时
 

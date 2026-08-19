@@ -302,6 +302,13 @@
 .vp-doc .manual-image-grid img { display: block; width: 100%; margin: 0; border: 0; border-radius: 0; }
 .vp-doc .manual-image-grid figcaption { padding: 10px 12px; color: var(--vp-c-text-2); font-size: 13px; line-height: 1.5; }
 
+/* 单图（放在某个步骤下方） */
+.vp-doc .manual-image-grid--single {
+  grid-template-columns: 1fr;
+  max-width: 640px;
+  margin: 16px auto;
+}
+
 /* Global, accessible image viewer. */
 .image-lightbox {
   position: fixed;

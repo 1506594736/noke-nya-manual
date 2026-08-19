@@ -40,6 +40,10 @@ Prepare in this order before each session:
    If the tracker position or orientation is not ideal after calibration, you can repeat this step until you are satisfied.
    :::
 
+   <div class="manual-image-grid manual-image-grid--single">
+     <figure><img src="/images/vrchat/step-08.png" alt="SlimeVR full reset and wearing calibration entry" /><figcaption>Run the full reset and body wearing calibration in order.</figcaption></figure>
+   </div>
+
 3. With 8 or more points and foot trackers assigned, also click "Wearing - Feet" and rise onto your toes until the countdown ends.
 
    ::: tip No foot trackers?
@@ -47,20 +51,28 @@ Prepare in this order before each session:
    :::
 
 4. After the steps above, open the VRChat menu as soon as possible, keep your legs straight and still, and click Calibrate.
+
+   <div class="manual-image-grid manual-image-grid--single">
+     <figure><img src="/images/vrchat/step-09.png" alt="Standing posture before VRChat full-body calibration" /><figcaption>Stay upright and stable before calibrating.</figcaption></figure>
+   </div>
+
 5. Keep your legs straight and extend your arms into a T-pose (only if you have arm trackers); keep the trackers (red circle positions) as close to the matching model parts as possible.
+
+   <div class="manual-image-grid manual-image-grid--single">
+     <figure><img src="/images/vrchat/step-10.png" alt="VRChat tracker and model alignment" /><figcaption>Keep the trackers as close to the model parts as possible.</figcaption></figure>
+   </div>
+
 6. Mainly adjust the five positions to match the avatar skeleton (depending on your tracker count); click the drop-down arrow on the right for more detailed options.
+
+   <div class="manual-image-grid manual-image-grid--single">
+     <figure><img src="/images/vrchat/step-11.png" alt="SlimeVR skeleton adjustment interface" /><figcaption>You can adjust the skeleton here for different models.</figcaption></figure>
+   </div>
+
 7. After adjusting, shrink the green circle so it aligns with the model, then press the controller trigger to confirm the binding.
 
 ::: tip Different avatars
 Different avatars generally need the skeleton re-adjusted before binding; re-playing with the same avatar usually does not require adjustment.
 :::
-
-<div class="manual-image-grid manual-image-grid--three">
-  <figure><img src="/images/vrchat/step-08.png" alt="SlimeVR full reset and wearing calibration entry" /><figcaption>Run the full reset and body wearing calibration in order.</figcaption></figure>
-  <figure><img src="/images/vrchat/step-09.png" alt="Standing posture before VRChat full-body calibration" /><figcaption>Stay upright and stable before calibrating.</figcaption></figure>
-  <figure><img src="/images/vrchat/step-10.png" alt="VRChat tracker and model alignment" /><figcaption>Keep the trackers as close to the model parts as possible.</figcaption></figure>
-  <figure><img src="/images/vrchat/step-11.png" alt="SlimeVR skeleton adjustment interface" /><figcaption>You can adjust the skeleton here for different models.</figcaption></figure>
-</div>
 
 ## When Movement Is Abnormal
 

@@ -2,6 +2,7 @@
 import DefaultTheme from 'vitepress/theme'
 import ImageLightbox from './ImageLightbox.vue'
 import LangToggle from './LangToggle.vue'
+import LinearGuide from './LinearGuide.vue'
 
 const { Layout } = DefaultTheme
 </script>
@@ -10,6 +11,9 @@ const { Layout } = DefaultTheme
   <Layout>
     <template #nav-bar-content-after>
       <LangToggle />
+    </template>
+    <template #doc-after>
+      <LinearGuide />
     </template>
   </Layout>
   <ImageLightbox />

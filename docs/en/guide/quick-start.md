@@ -1,6 +1,8 @@
-# Quick Start
+# Quick Start: Connect & Power On
 
-This page organizes the setup flow from the original manual into a single first-time sequence. Trackers and receivers are already paired at the factory, so normally no re-pairing is needed.
+This is step 2 of first-time setup, covering connecting the receiver and powering on the trackers. Trackers and receivers are already paired at the factory, so normally no re-pairing is needed.
+
+Follow first-time setup in order: **Check contents → Connect & power on → Configure SlimeVR → Assembly & wearing → First calibration** (use the "Next" buttons at the bottom of each page).
 
 ## Before You Start
 
@@ -31,33 +33,14 @@ Place the trackers into the charging dock and press the left button on the dock 
 
 While a tracker is off, press the side button on the tracker to turn it on by itself.
 
-## 3. Install SlimeVR
+## Next Steps
 
-Download and run the software from the [official SlimeVR website](https://slimevr.dev/).
+Once the receiver is connected and the trackers are on, continue in order:
 
-::: tip Download issues
-If the official channel is temporarily unavailable, get a verified installer through the product support channel. Never download software or firmware from unknown sources.
-:::
+1. **Configure SlimeVR** — install the software, detect devices and assign points (open [SlimeVR software](/en/software/))
+2. **Assembly & wearing** — chest mount, straps and wearing check
+3. **First calibration** — gyroscope zero-bias calibration and full reset
 
-## 4. Confirm Your Devices
-
-1. Start SlimeVR.
-2. Confirm the receiver is connected to the computer.
-3. Confirm the trackers are powered on.
-4. Wait for the software to detect the connected points.
-
-If the software does not detect your devices, see [Troubleshooting](/en/support/troubleshooting#trackers-not-found-by-the-software).
-
-## 5. Assign, Wear and Calibrate
-
-Assign the trackers to body parts, then fix them in place following [Assembly & Wearing](/en/guide/assembly). Before regular use, complete the SlimeVR body-proportion setup, full reset and wearing calibration.
-
-**Done when:** the corresponding trackers and skeleton in SlimeVR move in sync with your body.
-
-## 6. Power Off in Batch
-
-While the trackers are on, press the batch power-off button on the receiver to turn them all off.
-
-::: warning Receiver button
-The metal button on the left side of the receiver is labeled `SWO` in the original manual. Follow the silk-screen marking on the actual receiver, and avoid confusing it with the `SW0` button on the trackers and charging dock.
+::: tip Power off in batch
+To power off all trackers, press the batch power-off button on the left side of the receiver once while they are on. Follow the silk-screen marking on the actual receiver, and avoid confusing it with the `SW0` button on the trackers and dock.
 :::

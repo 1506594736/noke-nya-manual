@@ -43,12 +43,13 @@ const t = computed(() =>
         sceneNote: 'Attach the antenna, then connect to PC',
         startKicker: 'First-time use',
         startTitle: 'Set up in this order',
-        startLink: 'Open the full quick start',
+        startLink: 'Start first-time setup',
         startSteps: [
           { number: '01', title: 'Check contents', text: 'Get to know the trackers, receiver, antenna and charging dock.', href: '/en/info/product', icon: PackageCheck },
           { number: '02', title: 'Connect & power on', text: 'Attach the receiver antenna, connect to PC and power on the trackers.', href: '/en/guide/quick-start', icon: BatteryCharging },
           { number: '03', title: 'Configure SlimeVR', text: 'Install the software, detect devices and assign body points.', href: '/en/software/', icon: Settings2 },
-          { number: '04', title: 'Wear & calibrate', text: 'Secure the straps, check orientation and run the first calibration.', href: '/en/guide/assembly', icon: SlidersHorizontal },
+          { number: '04', title: 'Assembly & wearing', text: 'Build the chest mount and straps, then wear the trackers.', href: '/en/guide/assembly', icon: SlidersHorizontal },
+          { number: '05', title: 'First calibration', text: 'Run gyroscope zero-bias calibration and a full reset.', href: '/en/device/calibration', icon: RefreshCw },
         ],
         workflowKicker: 'Find by symptom',
         workflowTitle: 'What are you experiencing?',
@@ -86,12 +87,13 @@ const t = computed(() =>
         sceneNote: '安装天线后连接电脑',
         startKicker: '首次使用',
         startTitle: '按照这个顺序完成设置',
-        startLink: '打开完整快速开始',
+        startLink: '开始首次使用',
         startSteps: [
           { number: '01', title: '确认配件', text: '认识追踪器、接收器、天线与充电底座。', href: '/info/product', icon: PackageCheck },
-          { number: '02', title: '连接并开机', text: '安装接收器天线，连接电脑并开启追踪器。', href: '/guide/quick-start', icon: BatteryCharging },
+          { number: '02', title: '连接与开机', text: '安装接收器天线，连接电脑并开启追踪器。', href: '/guide/quick-start', icon: BatteryCharging },
           { number: '03', title: '配置 SlimeVR', text: '安装软件、识别设备并完成身体点位分配。', href: '/software/', icon: Settings2 },
-          { number: '04', title: '佩戴与校准', text: '固定绑带，检查方向并执行首次校准。', href: '/guide/assembly', icon: SlidersHorizontal },
+          { number: '04', title: '组装与佩戴', text: '组装胸挂与绑带，按推荐点位佩戴。', href: '/guide/assembly', icon: SlidersHorizontal },
+          { number: '05', title: '首次校准', text: '完成陀螺仪零偏校准与完整重置。', href: '/device/calibration', icon: RefreshCw },
         ],
         workflowKicker: '按现象查找',
         workflowTitle: '你现在遇到了什么？',
@@ -122,7 +124,7 @@ const t = computed(() =>
         <h1>{{ t.titleLine1 }}<br />{{ t.titleLine2 }}</h1>
         <p class="manual-lead">{{ t.lead }}</p>
         <div class="manual-actions">
-          <a class="manual-button manual-button--primary" :href="isEn ? '/en/guide/quick-start' : '/guide/quick-start'">
+          <a class="manual-button manual-button--primary" :href="isEn ? '/en/info/product' : '/info/product'">
             <BookOpen :size="19" />{{ t.primary }}<ArrowRight :size="18" />
           </a>
           <a class="manual-button manual-button--secondary" :href="isEn ? '/en/support/troubleshooting' : '/support/troubleshooting'">
@@ -155,7 +157,7 @@ const t = computed(() =>
           <p>{{ t.startKicker }}</p>
           <h2 id="start-title">{{ t.startTitle }}</h2>
         </div>
-        <a :href="isEn ? '/en/guide/quick-start' : '/guide/quick-start'">{{ t.startLink }}<ArrowRight :size="18" /></a>
+        <a :href="isEn ? '/en/info/product' : '/info/product'">{{ t.startLink }}<ArrowRight :size="18" /></a>
       </div>
       <ol class="manual-step-list">
         <li v-for="step in t.startSteps" :key="step.number">

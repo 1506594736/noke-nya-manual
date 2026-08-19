@@ -8,13 +8,14 @@ interface Step {
   en: string
 }
 
-// 首次使用线性流程：从确认配件到首次校准，一路"下一步"走完
+// 首次使用线性流程：从确认配件到进入 VRChat，一路"下一步"走完
 const FLOW: Step[] = [
   { path: '/info/product',        zh: '确认配件',     en: 'Check contents' },
   { path: '/guide/quick-start',   zh: '连接与开机',   en: 'Connect & power on' },
   { path: '/software/',           zh: '配置 SlimeVR', en: 'Configure SlimeVR' },
   { path: '/guide/assembly',      zh: '组装与佩戴',   en: 'Assembly & wearing' },
   { path: '/device/calibration',  zh: '首次校准',     en: 'First calibration' },
+  { path: '/software/vrchat',     zh: 'VRChat 配置',  en: 'VRChat setup' },
 ]
 
 const { lang } = useData()

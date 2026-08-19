@@ -20,7 +20,8 @@
 1. 在 SlimeVR 选择“漂移重置 - 完整重置”，直立站好并保持到倒计时结束。
 2. 选择“佩戴 - 身体”，摆出滑雪姿势并保持到倒计时结束。
 3. 使用 8 点及以上且分配了脚部追踪器时，继续执行“佩戴 - 脚部”，踮起脚尖完成脚部方向校正。
-4. 进入 VRChat 后，保持双腿站直稳定，完成游戏内校准与模型骨架对齐。
+
+进入 VRChat 游玩时，还需要在游戏内完成校准，见[VRChat 配置](/software/vrchat)。
 
 <div class="manual-image-grid manual-image-grid--three">
   <figure><img src="/images/calibration/step-03.png" alt="SlimeVR 每次使用前的佩戴校准" /><figcaption>完整重置和佩戴校准。</figcaption></figure>

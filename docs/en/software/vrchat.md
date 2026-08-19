@@ -31,11 +31,10 @@ This page applies when playing VRChat through SteamVR direct connection or strea
 
 ## Before Each Session
 
-1. In SlimeVR, run "Drift reset - Full reset" and stay upright until the countdown ends.
-2. Run "Wearing - Body", strike the skiing pose and stay until the countdown ends.
-3. With 8 or more points and foot trackers assigned, also run "Wearing - Feet" and rise onto your toes to complete foot orientation calibration.
-4. In VRChat, keep your legs straight and the trackers stable, then run the in-game calibration; if you have arm trackers, extend your arms into a T-pose.
-5. Keep the red-circle trackers as close to the matching model parts as possible; different models usually require re-adjusting the skeleton.
+First run the [before-each-use routine](/en/device/calibration#before-each-use) in SlimeVR: full reset, body wearing calibration and feet calibration. Then in VRChat:
+
+1. Keep your legs straight and the trackers stable, then run the in-game calibration; if you have arm trackers, extend your arms into a T-pose.
+2. Keep the red-circle trackers as close to the matching model parts as possible; different models usually require re-adjusting the skeleton.
 
 <div class="manual-image-grid manual-image-grid--three">
   <figure><img src="/images/vrchat/step-08.png" alt="SlimeVR full reset and wearing calibration entry" /><figcaption>Run the full reset and body wearing calibration in order.</figcaption></figure>

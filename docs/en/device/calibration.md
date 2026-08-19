@@ -20,7 +20,8 @@ Calibration falls into two types: gyroscope zero-bias calibration is normally on
 1. In SlimeVR, select "Drift reset - Full reset", stand upright and stay until the countdown ends.
 2. Select "Wearing - Body", strike the skiing pose and stay until the countdown ends.
 3. With 8 or more points and foot trackers assigned, also run "Wearing - Feet" and rise onto your toes to complete foot orientation calibration.
-4. After entering VRChat, keep your legs straight and stable, then complete the in-game calibration and model skeleton alignment.
+
+When playing VRChat, also run the in-game calibration — see [VRChat Setup](/en/software/vrchat).
 
 <div class="manual-image-grid manual-image-grid--three">
   <figure><img src="/images/calibration/step-03.png" alt="SlimeVR wearing calibration before each use" /><figcaption>Full reset and wearing calibration.</figcaption></figure>

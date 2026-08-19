@@ -14,8 +14,8 @@ const FLOW: Step[] = [
   { path: '/guide/quick-start',   zh: '连接与开机',   en: 'Connect & power on' },
   { path: '/software/',           zh: '配置 SlimeVR', en: 'Configure SlimeVR' },
   { path: '/guide/assembly',      zh: '组装与佩戴',   en: 'Assembly & wearing' },
-  { path: '/device/calibration',  zh: '首次校准',     en: 'First calibration' },
   { path: '/software/vrchat',     zh: 'VRChat 配置',  en: 'VRChat setup' },
+  { path: '/device/calibration',  zh: '设备校准',     en: 'Device calibration' },
 ]
 
 const { lang } = useData()

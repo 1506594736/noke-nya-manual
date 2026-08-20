@@ -2,7 +2,7 @@
 
 This is step 2 of first-time setup, covering connecting the receiver and powering on the trackers. Trackers and receivers are already paired at the factory, so normally no re-pairing is needed.
 
-Follow first-time setup in order: **Check contents → Connect & power on → Configure SlimeVR → Assembly & wearing → First calibration** (use the "Next" buttons at the bottom of each page).
+Follow first-time setup in order: **Check contents → Connect & power on → Assembly & wearing → Configure SlimeVR → VRChat setup → Continuous calibration** (use the "Next" buttons at the bottom of each page).
 
 ## Before You Start
 
@@ -37,9 +37,9 @@ While a tracker is off, press the side button on the tracker to turn it on by it
 
 Once the receiver is connected and the trackers are on, continue in order:
 
-1. **Configure SlimeVR** — install the software, detect devices and assign points (open [SlimeVR software](/en/software/))
-2. **Assembly & wearing** — chest mount, straps and wearing check
-3. **First calibration** — gyroscope zero-bias calibration and full reset
+1. **Assembly & wearing** — chest mount, straps and wearing check (open [Assembly & wearing](/en/guide/assembly))
+2. **Configure SlimeVR** — install the software, detect devices and assign points (open [SlimeVR software](/en/software/))
+3. **VRChat setup & continuous calibration** — complete the VRChat settings, first reset and continuous calibration
 
 ::: tip Power off in batch
 To power off all trackers, press the batch power-off button on the left side of the receiver once while they are on. Follow the silk-screen marking on the actual receiver, and avoid confusing it with the `SW0` button on the trackers and dock.

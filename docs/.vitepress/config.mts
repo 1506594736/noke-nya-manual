@@ -68,9 +68,10 @@ export default defineConfig({
             items: [
               { text: 'SlimeVR 软件使用', link: '/software/' },
               { text: 'VRChat 配置', link: '/software/vrchat' },
+              { text: '持续校准', link: '/device/continuous-calibration' },
               { text: '固件更新', link: '/device/firmware' },
-              { text: '设备校准', link: '/device/calibration' },
               { text: '磁力计', link: '/device/magnetometer' },
+              { text: '设备校准', link: '/device/calibration' },
             ],
           },
           {
@@ -137,9 +138,10 @@ export default defineConfig({
             items: [
               { text: 'SlimeVR Software', link: '/en/software/' },
               { text: 'VRChat Setup', link: '/en/software/vrchat' },
+              { text: 'Continuous Calibration', link: '/en/device/continuous-calibration' },
               { text: 'Firmware Update', link: '/en/device/firmware' },
-              { text: 'Device Calibration', link: '/en/device/calibration' },
               { text: 'Magnetometer', link: '/en/device/magnetometer' },
+              { text: 'Device Calibration', link: '/en/device/calibration' },
             ],
           },
           {

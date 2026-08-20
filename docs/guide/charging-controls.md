@@ -12,8 +12,8 @@
 
 <div class="manual-image-grid manual-image-grid--three">
   <figure><img src="/images/controls/step-01.png" alt="充电底座 SW0 按键位置" /><figcaption>充电底座 SW0 按键位置。</figcaption></figure>
-  <figure><img src="/images/controls/step-02.png" alt="追踪器 SW0 与 RST 按键位置" /><figcaption>追踪器的 SW0 与 RST 位置。</figcaption></figure>
-  <figure><img src="/images/controls/step-03.png" alt="接收器 SWO 与 RST 按键位置" /><figcaption>接收器的 SWO 与 RST 位置。</figcaption></figure>
+  <figure><img src="/images/controls/step-02.png" alt="接收器 SWO 与 RST 按键位置" /><figcaption>接收器的 SWO 与 RST 位置。</figcaption></figure>
+  <figure><img src="/images/controls/step-03.png" alt="追踪器 SW0 与 RST 按键位置" /><figcaption>追踪器的 SW0 与 RST 位置。</figcaption></figure>
 </div>
 
 ### 追踪器与充电底座 SW0

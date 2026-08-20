@@ -12,8 +12,8 @@ In the original manual, the button on the trackers and charging dock is labeled 
 
 <div class="manual-image-grid manual-image-grid--three">
   <figure><img src="/images/controls/step-01.png" alt="SW0 button location on the charging dock" /><figcaption>SW0 button location on the charging dock.</figcaption></figure>
-  <figure><img src="/images/controls/step-02.png" alt="SW0 and RST button locations on the tracker" /><figcaption>SW0 and RST locations on the tracker.</figcaption></figure>
-  <figure><img src="/images/controls/step-03.png" alt="SWO and RST button locations on the receiver" /><figcaption>SWO and RST locations on the receiver.</figcaption></figure>
+  <figure><img src="/images/controls/step-02.png" alt="SWO and RST button locations on the receiver" /><figcaption>SWO and RST locations on the receiver.</figcaption></figure>
+  <figure><img src="/images/controls/step-03.png" alt="SW0 and RST button locations on the tracker" /><figcaption>SW0 and RST locations on the tracker.</figcaption></figure>
 </div>
 
 ### Tracker & Charging Dock SW0

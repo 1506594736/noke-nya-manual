@@ -17,23 +17,7 @@
 
 ## 每次使用前
 
-每次使用前的例行校准（完整重置、身体佩戴校准、脚部校准）与游戏内校准，请按[VRChat 配置](/software/vrchat)中的「每次游玩前」操作。
-
-## 持续校准（VRChat）
-
-持续校准需要穿戴 VR 并进入 VRChat 后设置。依次保存站立、坐姿与平躺或躺坐姿势；每一步都以界面倒计时和确认结果为准。
-
-<div class="manual-image-grid manual-image-grid--three">
-  <figure><img src="/images/calibration/step-06.png" alt="SlimeVR 持续校准配置入口" /><figcaption>点击设置并配置持续校准。</figcaption></figure>
-  <figure><img src="/images/calibration/step-07.png" alt="SlimeVR 追踪器已经开启" /><figcaption>确认追踪器已经开启。</figcaption></figure>
-  <figure><img src="/images/calibration/step-08.png" alt="SlimeVR 持续校准完整重置" /><figcaption>站直后完成完整重置。</figcaption></figure>
-  <figure><img src="/images/calibration/step-09.png" alt="SlimeVR 持续校准滑雪姿势" /><figcaption>摆出滑雪姿势后重置佩戴。</figcaption></figure>
-  <figure><img src="/images/calibration/step-10.png" alt="SlimeVR 保存站立姿势" /><figcaption>站立放松后保存姿势。</figcaption></figure>
-  <figure><img src="/images/calibration/step-11.png" alt="SlimeVR 保存坐姿" /><figcaption>坐下或靠墙半蹲后保存姿势。</figcaption></figure>
-  <figure><img src="/images/calibration/step-12.png" alt="SlimeVR 保存平躺姿势" /><figcaption>平躺或躺坐后保存姿势。</figcaption></figure>
-  <figure><img src="/images/calibration/step-13.png" alt="SlimeVR 完成持续校准" /><figcaption>所有姿势完成后点击完成。</figcaption></figure>
-  <figure><img src="/images/calibration/step-14.png" alt="SlimeVR 重置功能说明" /><figcaption>完整重置、航向轴和佩戴校准说明。</figcaption></figure>
-</div>
+每次使用前的例行校准（完整重置、身体佩戴校准、脚部校准）与游戏内校准，请按[VRChat 配置](/software/vrchat)中的「每次使用前的准备」操作。
 
 ## 校准后仍有偏差
 

@@ -23,28 +23,24 @@ In the SlimeVR main window, click the tracker you want to check. The device info
   <figure><img src="/images/firmware/step-02.png" alt="SlimeVR tracker version number location" /><figcaption>The arrow points to the current version number.</figcaption></figure>
 </div>
 
-## Updating from a PC
+## Updating Tracker Firmware from a Computer
 
-1. Download the firmware and update tool for the matching model.
-2. Connect the device to the computer.
-3. Confirm the device model and current version in the tool.
-4. Select the matching firmware and start the update.
-5. Wait until the tool clearly shows completion.
-6. Restart the device and check the version.
-7. Confirm the tracker and receiver can still connect normally.
+1. Press the `RST` function button three times (you can use the button on the charging dock or on the tracker; when operating a tracker directly, gently press the reset hole with a toothpick).
 
-## DFU Update Flow
+   ::: warning Connection slots
+   Only the four dock slots near the buttons support connecting to a computer.
+   :::
 
-1. Quick-press the `RST` button 3 times. You can use the button on the charging dock; when operating a tracker directly, use a non-metallic thin object to gently press the reset hole.
-2. After entering DFU mode, the tracker's red light blinks.
-3. Place the tracker into the charging dock and connect it to the computer. The original manual notes that the four slots near the button on the dock support PC connection.
-4. When a removable disk named `tk_boot` appears, copy the official firmware matching your model to that disk.
-5. Wait for the write to finish, then restart the device and check the version and connection state.
+   <div class="manual-image-grid manual-image-grid--two">
+     <figure><img src="/images/firmware/step-03.png" alt="Charging dock slots that support computer connection" /></figure>
+     <figure><img src="/images/controls/step-03.png" alt="Charging dock SW0 and RST buttons" /></figure>
+   </div>
 
-<div class="manual-image-grid manual-image-grid--two">
-  <figure><img src="/images/firmware/step-03.png" alt="Dock slots that support PC connection" /><figcaption>The four slots near the button support PC connection.</figcaption></figure>
-  <figure><img src="/images/firmware/step-04.png" alt="Windows showing the tk_boot firmware disk" /><figcaption>Example of the `tk_boot` disk in DFU mode.</figcaption></figure>
-</div>
+2. After pressing `RST` three times, the tracker enters DFU mode and its red light blinks. Connect it to the computer; a removable disk named `tk_boot` appears. Drag the latest firmware matching the device from an official source onto it.
+
+   <div class="manual-image-grid manual-image-grid--single">
+     <figure><img src="/images/firmware/step-04.png" alt="Windows showing the tk_boot firmware disk" /><figcaption>Example of the `tk_boot` disk in DFU mode.</figcaption></figure>
+   </div>
 
 ## Recovery After a Failed Update
 

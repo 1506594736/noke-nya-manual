@@ -10,11 +10,19 @@ This chapter guides you through setting up the Slime trackers in VRChat for the 
 
 1. Start SlimeVR and confirm all trackers are connected and assigned correctly.
 2. Put on the headset and trackers, start SteamVR, then enter VRChat.
-3. In SlimeVR, open "Settings - VRChat settings warning", note the yellow exclamation items, then adjust them one by one according to your current software version.
+3. In SlimeVR, open the "Settings - VRChat settings warning" page.
 
-   <div class="manual-image-grid manual-image-grid--three">
+   <div class="manual-image-grid manual-image-grid--single">
      <figure><img src="/images/vrchat/step-01.png" alt="SlimeVR VRChat settings warning page" /><figcaption>Open the VRChat settings warning page.</figcaption></figure>
+   </div>
+
+4. Note the items marked with yellow exclamation points and adjust the corresponding VRChat settings (use the current software version as the reference).
+
+   <div class="manual-image-grid manual-image-grid--single">
      <figure><img src="/images/vrchat/step-02.png" alt="SlimeVR VRChat settings warning items" /><figcaption>Check the items indicated by the yellow prompts.</figcaption></figure>
+   </div>
+
+   <div class="manual-image-grid manual-image-grid--single">
      <figure><img src="/images/vrchat/step-03.png" alt="Example VRChat settings prompts" /><figcaption>Follow the prompts of the current version.</figcaption></figure>
    </div>
 
@@ -32,8 +40,6 @@ This chapter guides you through setting up the Slime trackers in VRChat for the 
      <figure><img src="/images/vrchat/step-05.png" alt="VRChat mirror settings" /><figcaption>Enable the personal mirror during full-body calibration.</figcaption></figure>
    </div>
 
-3. Enter your real height; it does not need to match the height setting inside SlimeVR.
-
    ::: tip Real height
    Fill in your real height for the VRChat avatar! The height inside SlimeVR does not need to match VRChat.
    :::
@@ -42,18 +48,37 @@ This chapter guides you through setting up the Slime trackers in VRChat for the 
    When switching to a different avatar, check whether the tracker nodes align with the model; if not, fine-tune the skeleton.
    :::
 
+3. Enable "disable shoulder tracking and shoulder width compensation".
+
    <div class="manual-image-grid manual-image-grid--single">
-     <figure><img src="/images/vrchat/step-06.png" alt="VRChat real height setting" /><figcaption>Enter your real height.</figcaption></figure>
+     <figure><img src="/images/vrchat/step-06.png" alt="VRChat disable shoulder tracking and shoulder width compensation settings" /><figcaption>Disable shoulder tracking and shoulder width compensation.</figcaption></figure>
    </div>
 
-4. Enable "disable shoulder tracking and shoulder width compensation".
-5. Enable full-body calibration visual feedback, set the tracker attachment range to 0.2 m, and set the tracker appearance to direction axis.
+4. Enable full-body calibration visual feedback, set the tracker attachment range to 0.2 m, and set the tracker appearance to direction axis.
 
    <div class="manual-image-grid manual-image-grid--single">
      <figure><img src="/images/vrchat/step-07.png" alt="VRChat full-body calibration visual feedback settings" /><figcaption>Set visual feedback, attachment range and direction axis.</figcaption></figure>
    </div>
 
-## Before Each Session
+## First Use Preparation
+
+### Gyroscope Calibration
+
+::: tip Calibration frequency
+Calibrate once after receiving the trackers; do not calibrate before every use.
+:::
+
+1. Insert all trackers into the charging dock, then double-press the SWO button. The trackers blink green once, stay solid green for 4–6 seconds, and finally blink green three times to indicate that gyroscope calibration is complete. Do not touch or move the trackers during calibration.
+
+## Before Each Use
+
+::: warning Before-use preparation
+Complete the following preparation before each use of the trackers.
+:::
+
+::: warning Point-count recommendation
+If you purchased an 8-point or 10-point set, start with 6 points first. Eight- and ten-point setups are more difficult to wear and tune; move to 8 or 10 points after the 6-point setup works correctly.
+:::
 
 Prepare in this order before each session:
 

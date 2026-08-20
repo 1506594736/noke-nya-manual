@@ -17,23 +17,7 @@ Calibration falls into two types: gyroscope zero-bias calibration is normally on
 
 ## Before Each Use
 
-The before-each-use routine (full reset, body wearing calibration, feet calibration) and the in-game calibration are described in [VRChat Setup](/en/software/vrchat) under "Before Each Session".
-
-## Continuous Calibration (VRChat)
-
-Continuous calibration is set up while wearing VR and inside VRChat. Save the standing, sitting, and lying or reclined poses in order; each step follows the interface countdown and confirmation result.
-
-<div class="manual-image-grid manual-image-grid--three">
-  <figure><img src="/images/calibration/step-06.png" alt="SlimeVR continuous calibration configuration entry" /><figcaption>Open settings and configure continuous calibration.</figcaption></figure>
-  <figure><img src="/images/calibration/step-07.png" alt="SlimeVR tracker already on" /><figcaption>Confirm the trackers are on.</figcaption></figure>
-  <figure><img src="/images/calibration/step-08.png" alt="SlimeVR continuous calibration full reset" /><figcaption>Stand straight and complete the full reset.</figcaption></figure>
-  <figure><img src="/images/calibration/step-09.png" alt="SlimeVR continuous calibration skiing pose" /><figcaption>Strike the skiing pose, then reset wearing.</figcaption></figure>
-  <figure><img src="/images/calibration/step-10.png" alt="SlimeVR saving the standing pose" /><figcaption>Stand relaxed and save the pose.</figcaption></figure>
-  <figure><img src="/images/calibration/step-11.png" alt="SlimeVR saving the sitting pose" /><figcaption>Sit or squat against a wall and save the pose.</figcaption></figure>
-  <figure><img src="/images/calibration/step-12.png" alt="SlimeVR saving the lying pose" /><figcaption>Lie down or recline and save the pose.</figcaption></figure>
-  <figure><img src="/images/calibration/step-13.png" alt="SlimeVR continuous calibration complete" /><figcaption>Click finish after all poses are saved.</figcaption></figure>
-  <figure><img src="/images/calibration/step-14.png" alt="SlimeVR reset function description" /><figcaption>Full reset, heading axis and wearing calibration notes.</figcaption></figure>
-</div>
+The before-each-use routine (full reset, body wearing calibration, feet calibration) and the in-game calibration are described in [VRChat Setup](/en/software/vrchat) under "Before Each Use".
 
 ## Still Offset After Calibration
 

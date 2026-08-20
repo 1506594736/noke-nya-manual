@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import { useData, useRoute } from 'vitepress'
+import { useRoute } from 'vitepress'
 
 interface Step {
   path: string
@@ -12,16 +12,19 @@ interface Step {
 const FLOW: Step[] = [
   { path: '/info/product',        zh: '确认配件',     en: 'Check contents' },
   { path: '/guide/quick-start',   zh: '连接与开机',   en: 'Connect & power on' },
-  { path: '/software/',           zh: '配置 SlimeVR', en: 'Configure SlimeVR' },
   { path: '/guide/assembly',      zh: '组装与佩戴',   en: 'Assembly & wearing' },
+  { path: '/software/',            zh: '配置 SlimeVR', en: 'Configure SlimeVR' },
   { path: '/software/vrchat',     zh: 'VRChat 配置',  en: 'VRChat setup' },
-  { path: '/device/calibration',  zh: '设备校准',     en: 'Device calibration' },
+  { path: '/device/continuous-calibration', zh: '持续校准', en: 'Continuous calibration' },
 ]
 
-const { lang } = useData()
 const route = useRoute()
 
-const isEn = computed(() => lang.value === 'en-US')
+const isEn = computed(() =>
+  route.path === '/en' ||
+  route.path.startsWith('/en/') ||
+  (typeof window !== 'undefined' && window.location.pathname.startsWith('/en/')),
+)
 
 // route.path 在 cleanUrls:false 时可能带 .html，且英文带 /en 前缀，统一归一化
 const base = computed(() => {
@@ -31,7 +34,7 @@ const base = computed(() => {
   return p
 })
 
-const idx = computed(() => FLOW.findIndex((s) => s.path === base.value))
+const idx = computed(() => FLOW.findIndex((s) => s.path.replace(/\/+$/, '') === base.value))
 const inFlow = computed(() => idx.value >= 0)
 const stepNo = computed(() => (inFlow.value ? idx.value + 1 : 0))
 const total = FLOW.length
